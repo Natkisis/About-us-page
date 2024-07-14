@@ -3,26 +3,19 @@
 }
 
 .teamInfo .h2{
-    text-align: center;
     margin-top: 20px;
 }
 
 .h3__team{
-    text-align: center;
     margin-top: 10px;
     margin-bottom: 0;
 }
 
 .teamInfo__text{
-    text-align: center;
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-footer{
-    text-align: center;
-}
-
-.net{
+.team, .footer{
     text-align: center;
 }

@@ -25,3 +25,26 @@ a[tabindex]:focus {
 	border: 1px solid var(--grey-light);
 }
 
+.menu-state, .menu-btn{
+    display: none;
+}
+
+@media screen and (max-width: 1050px){
+
+    .menu-btn{
+        background: var(--green);
+        color: aliceblue;
+        padding: 10px 15px;
+        cursor: pointer;
+        display: inline-block;  
+    }
+
+    .headerNavigation__menu{
+        display: none;
+    }
+
+    .menu-state:checked ~ .headerNavigation__menu{
+        display: block;
+    }
+
+}

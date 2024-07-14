@@ -1,7 +1,5 @@
 .contactsCol{
 	width: calc(100% / 3 - var(--gap));
-
-    /*margin: 10px auto 0;*/
 }
 
 .contactsCol img{
