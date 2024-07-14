@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('base/vars.css');
+@import url('base/reset.css');
+@import url('base/general.css');
+
+@import url('sections/header.css');
+@import url('sections/about.css');
+@import url('sections/choose.css');
+@import url('sections/contacts.css');
+@import url('sections/work.css');
+@import url('sections/advantages.css');
+@import url('sections/team.css');

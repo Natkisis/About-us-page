@@ -1,0 +1,23 @@
+.contactsCol{
+	width: calc(100% / 3 - var(--gap));
+
+    /*margin: 10px auto 0;*/
+}
+
+.contactsCol img{
+    margin-bottom: var(--gap);
+}
+
+.box{
+    width:150px;
+    height:40px;
+    background: var(--green);
+    border-radius: 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contactsInfo{
+    margin-bottom: 40px;
+}

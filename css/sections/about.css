@@ -1,0 +1,31 @@
+.aboutImage{
+	width: 474px;
+}
+
+.aboutInfo{
+	width: calc(100% - 474px - (var(--gap) * 2));
+	max-width: 553px;
+	margin: 10px auto 0;
+}
+
+@media screen and (max-width: 1140px){
+	.aboutInfo{
+		margin: var(--gap) / 2;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.aboutImage{
+		width: 350px;
+	}
+
+	.aboutInfo{
+		width: calc(100% - 350px - (var(--gap) * 2));
+	}
+}
+
+@media screen and (max-width: 780px){
+	.aboutImage, .aboutInfo{
+		width: calc(100% - var(--gap));
+	}
+}

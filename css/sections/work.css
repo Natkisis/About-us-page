@@ -1,0 +1,13 @@
+.workImage{
+	width: calc(100% / 12 * 5 - var(--gap));
+}
+
+.workInfo{
+	width: calc(100% / 12 * 7 - var(--gap));
+	max-width: 553px;
+	margin: 10px auto 0;
+}
+
+.h3__work{
+    margin: 20px 0;
+}
