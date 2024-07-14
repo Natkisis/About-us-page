@@ -8,34 +8,8 @@
     color: var(--grey-light);
 }
 
-.headerLogoSign__name, .headerNavigation__menu{
+.headerNavigation__menu{
     color: var(--grey-dark);
-}
-
-.haederLogoSigh__slogan{
-    color: var(--grey-light);
-}
-
-.headerLogoSign__img{
-    max-height: 38px;
-}
-
-.headerLogoSign__name{
-    font-size: 37px;
-}
-
-
-.headerLogoSign, .headerNavigation {
-    align-items: center;
-    justify-content: center;
-}
-
-.as{
-    font-size: 37px;
-}
-
-.ab{
-    font-size: 14px;
 }
 
 a:active {
