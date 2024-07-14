@@ -20,3 +20,8 @@ a[tabindex]:focus {
     color: var(--green);
     outline: none;
 }
+
+.hr-line {
+	border: 1px solid var(--grey-light);
+}
+

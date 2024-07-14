@@ -52,6 +52,10 @@ h3, .h3{
 	color: inherit;
 }
 
+.bottomSection{
+	margin-bottom: var(--gap);
+}
+
 @media screen and (max-width: 780px){
 	.container{
 		padding: 0 15px;
