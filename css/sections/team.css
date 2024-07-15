@@ -16,6 +16,27 @@
     margin-bottom: 20px;
 }
 
-.team, .footer{
+.team{
     text-align: center;
+}
+
+
+@media screen and (max-width: 992px){
+
+	.teamImage{
+		width: calc(100% / 2 - var(--gap));
+	}
+}
+
+@media screen and (max-width: 560px){
+	.teamImage{
+		width: calc(100% - var(--gap));
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.advantageItem__icon{
+		margin: 0 0 25px 0;
+	}
 }

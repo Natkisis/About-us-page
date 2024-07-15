@@ -35,6 +35,7 @@
 		width: calc(100% - var(--gap));
 		flex-wrap: wrap;
 		justify-content: center;
+		text-align: center;
 	}
 
 	.advantageItem__icon{
