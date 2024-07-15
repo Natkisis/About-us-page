@@ -22,3 +22,22 @@
 .contactsInfo{
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 992px){
+
+	.contactsCol{
+		width: calc(100% / 2 - var(--gap));
+	}
+}
+
+@media screen and (max-width: 560px){
+	.contactsCol{
+		width: calc(100% - var(--gap));
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.advantageItem__icon{
+		margin: 0 0 25px 0;
+	}
+}

@@ -46,5 +46,4 @@ a[tabindex]:focus {
     .menu-state:checked ~ .headerNavigation__menu{
         display: block;
     }
-
 }
