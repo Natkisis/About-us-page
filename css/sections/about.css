@@ -10,22 +10,27 @@
 
 @media screen and (max-width: 1140px){
 	.aboutInfo{
-		margin: var(--gap) / 2;
+	/*	margin: var(--gap) / 2;*/
 	}
 }
 
 @media screen and (max-width: 900px){
 	.aboutImage{
 		width: 350px;
+		/*margin: 5px auto 0;*/
 	}
 
 	.aboutInfo{
+		/*width: calc(100% - 350px - (var(--gap) * 2));*/
 		width: calc(100% - 350px - (var(--gap) * 2));
+		margin: 15px;
 	}
 }
 
 @media screen and (max-width: 780px){
 	.aboutImage, .aboutInfo{
 		width: calc(100% - var(--gap));
+		margin: 15px;
+		
 	}
 }
