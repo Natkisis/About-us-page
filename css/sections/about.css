@@ -4,8 +4,13 @@
 
 .aboutInfo{
 	width: calc(100% - 474px - (var(--gap) * 2));
+	/*max-width: 553px;*/
+	/*margin: 10px auto 0;*/
+}
+
+.aboutInfo__content{
 	max-width: 553px;
-	margin: 10px auto 0;
+	margin: 0 auto;
 }
 
 @media screen and (max-width: 1140px){
@@ -17,7 +22,6 @@
 @media screen and (max-width: 900px){
 	.aboutImage{
 		width: 350px;
-		/*margin: 5px auto 0;*/
 	}
 
 	.aboutInfo{

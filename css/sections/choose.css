@@ -19,7 +19,7 @@
 	.chooseImage{
 		width: 350px;
 		margin: 5px auto 0;
-		order: -1;
+		
 	}
 
 	.chooseInfo{
@@ -31,34 +31,9 @@
 	.chooseImage, .chooseInfo{
 		width: calc(100% - var(--gap));
 	}
-}
 
-
-/*
-@media screen and (max-width: 1140px){
-	.chooseInfo, .chooseImage{
-		margin: var(--gap) / 2;
-	}
-}
-
-@media screen and (max-width: 900px){
-	.chooseImage{
-		width: 350px;
-	}
-
-	.chooseInfo{
-		width: calc(100% - 350px - (var(--gap) * 2));
-	}
-}
-
-@media screen and (max-width: 780px){
-	
 	.chooseImage{
 		order: -1;
 	}
-	
-	.chooseImage, .chooseInfo{
-		width: calc(100% - var(--gap));
-	}
 }
-*/
+
