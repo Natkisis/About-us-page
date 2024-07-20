@@ -13,13 +13,6 @@
 }
 
 
-@media screen and (max-width: 1140px){
-	.workInfo{
-	/*	margin: var(--gap) / 2;*/
-	
-	}
-}
-
 @media screen and (max-width: 900px){
 	.workImage{
 		width: 350px;
@@ -31,8 +24,10 @@
 }
 
 @media screen and (max-width: 780px){
+
 	.workImage, .workInfo{
 		width: calc(100% - var(--gap));
-		margin: 15px;
+		max-width: 100%;
 	}
+
 }

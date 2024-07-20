@@ -13,11 +13,6 @@
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 1140px){
-	.aboutInfo{
-	/*	margin: var(--gap) / 2;*/
-	}
-}
 
 @media screen and (max-width: 900px){
 	.aboutImage{
@@ -25,16 +20,19 @@
 	}
 
 	.aboutInfo{
-		/*width: calc(100% - 350px - (var(--gap) * 2));*/
 		width: calc(100% - 350px - (var(--gap) * 2));
 		margin: 15px;
 	}
 }
 
 @media screen and (max-width: 780px){
+	
+	.aboutInfo__content{
+		max-width: 100%;
+	}
+
 	.aboutImage, .aboutInfo{
 		width: calc(100% - var(--gap));
-		margin: 15px;
-		
 	}
+
 }

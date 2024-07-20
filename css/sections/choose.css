@@ -9,17 +9,10 @@
 }
 
 
-@media screen and (max-width: 1140px){
-	.chooseInfo{
-		/*margin: var(--gap) / 2;*/
-	}
-}
-
 @media screen and (max-width: 900px){
 	.chooseImage{
 		width: 350px;
 		margin: 5px auto 0;
-		
 	}
 
 	.chooseInfo{
@@ -28,8 +21,10 @@
 }
 
 @media screen and (max-width: 780px){
-	.chooseImage, .chooseInfo{
+
+	.chooseInfo, .chooseImage{
 		width: calc(100% - var(--gap));
+		max-width: 100%;
 	}
 
 	.chooseImage{
