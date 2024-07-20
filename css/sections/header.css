@@ -27,8 +27,13 @@ a[tabindex]:focus {
 
 .menu-state, .menu-btn{
     display: none;
+    
 }
-
+/*
+.headerNavigation{
+    position: relative;
+}
+*/
 @media screen and (max-width: 1050px){
 
     .menu-btn{
@@ -45,5 +50,10 @@ a[tabindex]:focus {
 
     .menu-state:checked ~ .headerNavigation__menu{
         display: block;
+        position: absolute; /*add*/
+        width: 100%;
+        background: rgba(0,0,0,0.7);
+        left: 15px;
+        color: aliceblue;
     }
 }
