@@ -56,4 +56,10 @@ a[tabindex]:focus {
         left: 15px;
         color: aliceblue;
     }
+
+    .headerNavigation__menu .link{
+        border-bottom: 1px solid aliceblue;
+        display: block;
+    }
+
 }
