@@ -29,6 +29,8 @@ a[tabindex]:focus {
     display: none;
     
 }
+
+
 /*
 .headerNavigation{
     position: relative;
@@ -52,14 +54,24 @@ a[tabindex]:focus {
         display: block;
         position: absolute; /*add*/
         width: 100%;
-        background: rgba(0,0,0,0.7);
+        background: rgba(0,0,0,0.8);
         left: 15px;
         color: aliceblue;
     }
 
-    .headerNavigation__menu .link{
-        border-bottom: 1px solid aliceblue;
-        display: block;
+    .headerNavigation__item{
+        padding: 5px 10px;
+        margin: 0;
+        border-top: 1px solid var(--grey-light);
+        transition: background-color 0.5s;
+    }
+
+    .headerNavigation__item:hover{
+        background: var(--green);
+    }
+
+    .headerNavigation__item:first-child{
+        border-top: none;
     }
 
 }
