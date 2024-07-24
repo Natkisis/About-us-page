@@ -1,16 +1,28 @@
 .aboutImage{
 	width: 474px;
+	position: relative;
 }
 
 .aboutInfo{
 	width: calc(100% - 474px - (var(--gap) * 2));
-	/*max-width: 553px;*/
-	/*margin: 10px auto 0;*/
 }
 
 .aboutInfo__content{
 	max-width: 553px;
 	margin: 0 auto;
+}
+
+.aboutImage_2{
+	position: absolute;
+	bottom: 0;
+	left: -100px;
+	max-width: 350px;
+}
+
+@media screen and (max-width: 1025px){
+	.aboutImage_2{
+		display: none;
+	}
 }
 
 
@@ -22,6 +34,10 @@
 	.aboutInfo{
 		width: calc(100% - 350px - (var(--gap) * 2));
 		margin: 15px;
+	}
+
+	.image_2{
+		display: none;
 	}
 }
 

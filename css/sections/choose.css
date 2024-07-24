@@ -1,6 +1,7 @@
 .chooseImage{
 	width: 474px;
     margin: 10px auto 0;
+	position: relative;
 }
 
 .chooseInfo{
@@ -8,6 +9,18 @@
 	max-width: 553px;
 }
 
+.chooseImage_2{
+	position: absolute;
+	bottom: 0;
+	right: -100px;
+	max-width: 350px;
+}
+
+@media screen and (max-width: 1025px){
+	.chooseImage_2{
+		display: none;
+	}
+}
 
 @media screen and (max-width: 900px){
 	.chooseImage{

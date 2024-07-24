@@ -1,5 +1,6 @@
 .workImage{
 	width: calc(100% / 12 * 5 - var(--gap));
+	position: relative;
 }
 
 .workInfo{
@@ -10,6 +11,19 @@
 
 .h3__work{
     margin: 20px 0;
+}
+
+.workImage_2{
+	position: absolute;
+	bottom: 0;
+	left: -100px;
+	max-width: 350px;
+}
+
+@media screen and (max-width: 1025px){
+	.workImage_2{
+		display: none;
+	}
 }
 
 
