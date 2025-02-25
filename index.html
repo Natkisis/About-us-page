@@ -5,29 +5,31 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	<nav class="header bottomSection">
 		<div class="container">
 			<div class="row headerBlock">
-				<div class="col headerLogoSign__img"><img src="img/logo.png" alt=""></div> 
+				<div class="col headerLogoSign__img"><img src="img/logo.webp" alt=""></div> 
 					
 				<div class="col headerNavigation">
 					
 					<div class="menu">
 						<label for="menu-state" class="menu-btn">Toggle menu</label>
 						<input id='menu-state' type="checkbox" class="menu-state">
-		
+						
+
 						<div class="row headerNavigation__menu">
-								<div class="col headerNavigation__item"><a class='link' href='#' tabindex="1">Home 	&#8744;</a></div>
-								<div class="col headerNavigation__item"><a class='link' href='#' tabindex="1">About 	&#8744;</a></div>
-								<div class="col headerNavigation__item"><a class='link' href='#' tabindex="1">Pages 	&#8744;</a></div>                                                               
-								<div class="col headerNavigation__item"><a class='link' href='#' tabindex="1">Blog 	&#8744;</a></div>
-								<div class="col headerNavigation__item"><a class='link' href='#' tabindex="1">Gallery 	&#8744;</a></div>
-								<div class="col headerNavigation__item"><a class='link' href='#' tabindex="1">Shop 	&#8744;</a></div>
-								<div class="col headerNavigation__item"><a class='link' href='#' tabindex="1">Contacts 	&#8744;</a></div>
-								<div class="col headerNavigation__item">&#128269;</div>
+							<div class="col"><a class='link' href='#' tabindex="1">Home 	&#8744;</a></div>
+							<div class="col"><a class='link' href='#' tabindex="1">About 	&#8744;</a></div>
+							<div class="col"><a class='link' href='#' tabindex="1">Pages 	&#8744;</a></div>                                                               
+							<div class="col"><a class='link' href='#' tabindex="1">Blog 	&#8744;</a></div>
+							<div class="col"><a class='link' href='#' tabindex="1">Gallery 	&#8744;</a></div>
+							<div class="col"><a class='link' href='#' tabindex="1">Shop 	&#8744;</a></div>
+							<div class="col"><a class='link' href='#' tabindex="1">Contacts 	&#8744;</a></div>
+							<div class="col">&#128269;</div>
 						</div>
 					</div>
 				</div>
@@ -39,15 +41,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col aboutImage">
-					<img class="aboutImage_1" src="img/about_1.jpg" alt="">
-					<img class="aboutImage_2" src="img/about_2.png" alt="">
+					<picture>
+						<source type="image/webp" srcset="img/about.webp">
+						<img src="img/about.png" alt="">
+					</picture>
+				<!--	<img src="img/about.webp" alt=""> -->
 				</div>
 				<div class="col aboutInfo">
-					<div class="aboutInfo__content">
-						<h1 class="h2">About</h1>
-						<div class="h3 clr-green">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.</div>
-						<div class="aboutInfo__text clr-grey-light">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</div>
-					</div>
+					<h1 class="h2">About</h1>
+					<div class="h3 clr-green">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.</div>
+					<div class="aboutInfo__text clr-grey-light">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</div>
 				</div>
 			</div>
 		</div>
@@ -62,8 +65,7 @@
 					<div class="chooseInfo__text clr-grey-light">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</div>
 				</div>
 				<div class="col chooseImage">
-					<img class="chooseImage_1" src="img/choose_1.jpg" alt="">
-					<img class="chooseImage_2" src="img/choose_2.jpg" alt="">
+					<img src="img/choose.webp" alt="">
 				</div>
 			</div>
 		</div>
@@ -100,8 +102,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col workImage">
-					<img class="workImage_1" src="img/work_1.jpg" alt="">
-					<img class="workImage_2" src="img/work_2.jpg" alt="">
+					<img src="img/work.webp" alt="">
 				</div>
 				<div class="col workInfo">
 					<h2 class="h2">How we work</h2>
@@ -119,7 +120,7 @@
 			<div class="row">
 				<div class="col advantageItem">
 					<div class="advantageItem__icon">
-						<img src="img/responsive.png" alt="" />
+						<img src="img/responsive.webp" alt="" />
 					</div>
 					<div class="advantageItem__texts">
 						<h3 class="advantageItem__title clr-green">Responsive design</h3>
@@ -128,7 +129,7 @@
 				</div>
 				<div class="col advantageItem">
 					<div class="advantageItem__icon advantageItem__icon-top">
-						<img src="img/features.png" alt="" />
+						<img src="img/features.webp" alt="" />
 					</div>
 					<div class="advantageItem__texts">
 						<h3 class="advantageItem__title clr-green">Creative ideas</h3>
@@ -137,7 +138,7 @@
 				</div>
 				<div class="col advantageItem">
 					<div class="advantageItem__icon advantageItem__icon-top">
-						<img src="img/cross.png" alt="" />
+						<img src="img/cross.webp" alt="" />
 					</div>
 					<div class="advantageItem__texts">
 						<h3 class="advantageItem__title clr-green">Cross-browser support</h3>
@@ -146,7 +147,7 @@
 				</div>
 				<div class="col advantageItem">
 					<div class="advantageItem__icon">
-						<img src="img/ideas.png" alt="" />
+						<img src="img/ideas.webp" alt="" />
 					</div>
 					<div class="advantageItem__texts">
 						<h3 class="advantageItem__title clr-green">More features</h3>
@@ -165,33 +166,33 @@
 			
 			<div class="row">
 				<div class="col teamImage">
-					<img src="img/team_1.jpg" alt="">
+					<img src="img/team_1.webp" alt="">
 					<div class="h3 clr-green h3__team">Mark Johnson</div>
 					<div class="teamInfo__text">Lorem ipsum dolor sit amet con</div>
 					<div class="net">
-						<a href="#"><img src="img/facebook.png"> </a>
-						<a href="#"><img src="img/twitter.png"> </a>
-						<a href="#"><img src="img/skype.png"> </a>
+						<a href="#"><img src="img/facebook.webp"> </a>
+						<a href="#"><img src="img/twitter.webp"> </a>
+						<a href="#"><img src="img/skype.webp"> </a>
 					</div>
 				</div>
 				<div class="col teamImage">
-					<img src="img/team_2.jpg" alt="">
+					<img src="img/team_2.webp" alt="">
 					<div class="h3 clr-green h3__team">Eva Savits</div>
 					<div class="teamInfo__text">Lorem ipsum dolor sit amet con</div>
 					<div class="net">
-						<a href="#"><img src="img/facebook.png"> </a>
-						<a href="#"><img src="img/twitter.png"> </a>
-						<a href="#"><img src="img/skype.png"> </a>
+						<a href="#"><img src="img/facebook.webp"> </a>
+						<a href="#"><img src="img/twitter.webp"> </a>
+						<a href="#"><img src="img/skype.webp"> </a>
 					</div>
 				</div>
 				<div class="col teamImage">
-					<img src="img/team_3.jpg" alt="">
+					<img src="img/team_3.webp" alt="">
 					<div class="h3 clr-green h3__team">Robert Haddon</div>
 					<div class="teamInfo__text">Lorem ipsum dolor sit amet con</div>
 					<div class="net">
-						<a href="#"><img src="img/facebook.png"> </a>
-						<a href="#"><img src="img/twitter.png"> </a>
-						<a href="#"><img src="img/skype.png"> </a>
+						<a href="#"><img src="img/facebook.webp"> </a>
+						<a href="#"><img src="img/twitter.webp"> </a>
+						<a href="#"><img src="img/skype.webp"> </a>
 					</div>
 				</div>
 			</div>
@@ -200,7 +201,7 @@
 	
 	<footer class="footer bottomSection">
 		<div class="container ">
-			<img src="img/footer.png" alt="">
+			<img src="img/footer.webp" alt="">
 		</div>
 	</footer>
 
